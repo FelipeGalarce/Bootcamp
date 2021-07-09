@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer {
+    background-color: white;
+    height: auto;
+    
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+    color: black;
+}
+.footer1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer1 p {
+    font: 2.8rem;
+    font-weight: 300;
+    line-height: 1.2rem;
+    max-width: 500px;
+}
+@media (max-width: 720px) {
+    .footer1 p {
+        max-width: 300px;
+}
+
+}
+.precioantiguo p {
+    color: #707070;  
+    font-weight: 300;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 0.5em;
+}
+.precionuevo p {
+    color: #28A745;
+    
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+    text-align: right;
+}
+
+.precios {
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+    margin-right: 1em;
+    
+}
+.descripcion h5 {
+    padding-left: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #707070;
+
+}
+
+.descripcion h6 {
+    padding-left: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #707070;
+}
+.descripcion p {
+    padding-left: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #707070;
+    
+}
+.descripcion {
+    margin-bottom: -1.5em;
+}
+.card {
+    
+    margin:  1.5em 0;
+    
+}
+.emailynombre {
+    background-color: #28A745;
+    height: auto;
+    margin-top: 2.5em;
+    color: black;
+    display:block;
+    padding: 1.5rem 0;
+
+}
+.emailynombre input {
+
+    padding: 10px;
+    margin: 10px;
+}
+.emailynombre button {
+    color: #212529;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.emailynombre h4 {
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+
+}
+input[type=text] {
+    width: 270px;
+}
+input[type=email] {
+    width: 270px;
+}
+.btn-outline-success {
+
+    padding: 10px 30px;
+}
+.textonav ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+}
